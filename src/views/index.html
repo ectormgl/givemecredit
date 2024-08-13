@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Prediction Form</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label, input {
+    margin: 5px 0;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Credit Prediction</h2>
+        <form action="/predict" method="post">
+            <label for="balance_divided_creditlimit">Balance/Credit Limit</label>
+            <input type="number" id="balance_divided_creditlimit" name="balance_divided_creditlimit" step="any"  >
+
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" required min="18">
+
+            <label for="DebtRatio">Debt Ratio</label>
+            <input type="number" id="DebtRatio" name="DebtRatio" required step="any">
+
+            <label for="MonthlyIncome">Monthly Income</label>
+            <input type="number" id="MonthlyIncome" name="MonthlyIncome" required>
+
+            <label for="NumberOfOpenCreditLinesAndLoans">Number of Open Credit Lines and Loans</label>
+            <input type="number" id="NumberOfOpenCreditLinesAndLoans" name="NumberOfOpenCreditLinesAndLoans" required step="1" min="0">
+
+            <label for="NumberOfTimes90DaysLate">Number of Times 90 Days Late</label>
+            <input type="number" id="NumberOfTimes90DaysLate" name="NumberOfTimes90DaysLate" required step="1" min="0">
+
+            <label for="NumberRealEstateLoansOrLines">Number of Real Estate Loans or Lines</label>
+            <input type="number" id="NumberRealEstateLoansOrLines" name="NumberRealEstateLoansOrLines" required step="1" min="0">
+
+            <label for="number_times_latepay60-89">Number of Times 60-89 Days Late</label>
+            <input type="number" id="number_times_latepay60-89" name="number_times_latepay60-89" required step="1" min="0">
+
+            <label for="NumberOfDependents">Number of Dependents</label>
+            <input type="number" id="NumberOfDependents" name="NumberOfDependents" required step="1" min="0">
+
+            <button type="submit">Predict</button>
+        </form>
+    </div>
+</body>
+</html>
