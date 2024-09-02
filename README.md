@@ -1,4 +1,5 @@
 <h1 align="center"> Give me Some Credit analysis </h1> <br>
+<img src="./assets/6106991.png" >
 
 ## Table of Contents
 
@@ -101,6 +102,7 @@ This is my first full project in Data Science role and I want to provide some su
 - Educational Data Mining To Improve The Academic Performance in Higher Education - Scientific Figure on ResearchGate. Available from: https://www.researchgate.net/figure/Steps-of-data-mining_fig1_349788796 [accessed 2 Sept 2024]
 - [Scikit-learning documentation](https://scikit-learn.org/stable/index.html)
 - [Seaborn documentation](https://seaborn.pydata.org/examples/index.html)
+- [Credit Fusion, Will Cukierski (2011). Give Me Some Credit. Kaggle. ](www.kaggle.com/competitions/GiveMeSomeCredit/overview/$citation)
 - [Natan Matos - github](https://github.com/natan-matos/health-insurance)
 
 **Thank you for your attention.**
