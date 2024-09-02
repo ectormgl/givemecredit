@@ -35,7 +35,7 @@ def predict():
 
     
     prediction = model.predict(data)
-    #print('='*40,prediction)
+
     
     return render_template('result.html', prediction=prediction[0])
 
