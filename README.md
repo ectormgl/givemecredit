@@ -3,13 +3,13 @@
 
 ## Table of Contents
 
-- [Business problem](#introduction)
+- [Business problem](#Businessproblem)
 - [Roadmap](#Roadmap)
-- [Considerations](#Considerations)
 - [Development](#Development)
-- [Insights](#Insights)
-- [Machine Learning](#machine-)
-
+- [Data](#Data)
+- [Top Insights](#TopInsights)
+- [Machine Learning model](#MachineLearningmodel)
+- [Conclusion](#Conclusion)
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Business problem
@@ -89,7 +89,7 @@ Lets check the confussion matrix:
 - Usually, SVM can be computacionally expensive while changing the kernels (example: linear, sigmoid... ), but how do we have (theorically) a fewer dataset than usual (therabytes of data), SVM can be very fast even with a diverse number of features that has a simple relationship.
 - Also, I would select NN (neural networks) only if I wanted a very precise result with high number of data samples (what would be less computacionally expensive than SVM ) 
 
-## Conclusion:
+## Conclusion
 After analysing the results, i've selected the model with the most reasonable accuracy (other details explained in the previous chapter). The model is **SVM (Suport Vector Machines)**
 There is some possible corrections to avoid the risk of default:
 - Limit or cancel the number of loans for people who already had overdue bills for more than 90+ days. Also, do not grant any loan to a person who has an active overdue bill in the actual bank or in others (if the information is available)
