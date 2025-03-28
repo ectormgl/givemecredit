@@ -105,6 +105,7 @@ This is my first full project in Data Science role and I want to provide some su
 - [Credit Fusion, Will Cukierski (2011). Give Me Some Credit. Kaggle. ](www.kaggle.com/competitions/GiveMeSomeCredit/overview/$citation)
 - [Natan Matos - github](https://github.com/natan-matos/health-insurance)
 
+
 **Thank you for your attention.**
 >
 **Ector Magalhães**
