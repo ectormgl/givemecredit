@@ -50,7 +50,7 @@ PS: Notice that the following development cycle has a proccess that I divided at
 
 
 
-<img href=""><a href="https://www.researchgate.net/figure/Steps-of-data-mining_fig1_349788796"><img src="https://www.researchgate.net/profile/Alyaa-Mahdi-2/publication/349788796/figure/fig1/AS:1066030491246592@1631172883243/Steps-of-data-mining.png" alt="Steps of data mining"/></a></img>
+<img href=""><a href="https://www.researchgate.net/figure/Steps-of-data-mining_fig1_349788796"><img src="./assets/Steps-of-data-mining.png" alt="Steps of data mining"/></a></img>
 Please look at the author of this data mining process:
 >Educational Data Mining To Improve The Academic Performance in Higher Education - Scientific Figure on ResearchGate. Available from: https://www.researchgate.net/figure/Steps-of-data-mining_fig1_349788796 [accessed 2 Sept 2024]
 
